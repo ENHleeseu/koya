@@ -1,0 +1,21 @@
+while True:
+        print('what do you want to convert: C, F or E') 
+        user_input = input()
+        
+        if user_input == 'c':
+            print('what is the degree in celcius:')
+            user_degree = input('Degrees:')
+            user_degree_int = int(user_degree)
+            result = (user_degree_int * 9/5) + 32
+            print('the result is:',result)
+               
+        if user_input == 'f':
+            print('what is the degree in farenheit:')
+            user_degree = input('Degrees:')
+            user_degree_int = int(user_degree)
+            result = (user_degree_int - 32) * 5/9
+            print('the result is:',result)
+            
+        if user_input == 'e':
+            exit()
+
